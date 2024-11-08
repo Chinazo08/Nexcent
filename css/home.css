@@ -1,0 +1,282 @@
+/* resent css */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border: 1px solid blue;
+    padding: 0 80px;
+}
+
+ul {
+    display: flex;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0px 15px;
+}
+.nav-link {
+    font-size: 18px;
+    color: black;
+}
+
+.btn {
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    padding-inline: 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(68, 175, 68);
+    color: rgb (237, 234, 234);
+}
+.logo {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+/* HERO SECTION STYLES */
+
+.hero-section {
+    /* height: 100vh; */
+    height: calc(100vh - 60px);
+    border: 1px soid red;
+    padding: 0 80px;
+    background-color: aliceblue;
+    display: flex;
+}
+
+.left-hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    height: inherit;
+    width: 50%;
+}
+
+.right-hero-section {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 60px;
+}
+
+.hero-text > span {
+    color: rgb(68, 175, 68);
+}
+
+.hero-content {
+    margin: 15px 0;
+    color: rgb(94, 83, 83);
+}
+
+.hero-btn {
+    /* border: 1px solid black; */
+    background-color: rgb(68, 175, 68);
+    width: 200px;
+    height: 45px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.client-section {
+    height: 125vh;
+    /* border: 1px solid blue; */
+}
+
+.heading-client-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(58, 55, 55);
+}
+
+.text-client-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color:rgb(112, 108, 108) ;
+}
+
+.logo-client-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    margin-top: 30px;
+}
+
+.heading-community-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    /* border: 1px solid red; */
+    text-align: center;
+    color: rgb(58, 55, 55);
+}
+
+.text-community-section {
+    display: flex;
+    justify-content: center;
+    color: rgb(112, 108, 108);
+}
+
+.community-section {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid purple; */
+}
+
+.mnc-community-section {
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 2px 1px 2px;
+}
+.nc-community-section {
+    margin-top: 10px;
+}
+
+.c-community-section {
+    margin-top: 10px;
+}
+
+
+.head-m-community-section {
+    display: flex;
+    padding: 0px 30px;
+}
+
+.pixel-section {
+    display: flex;
+    padding: 50px 100px;
+}
+.left-pixel-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.right-pixel-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin-left: 200px;
+}
+
+.pixel-text {
+    font-size: 40px;
+}
+
+.pixel-content {
+    margin-top: 20px;
+    color: rgb(92, 90, 90);
+}
+
+.pixel-btn {
+    margin-top: 20px;
+   background-color: rgb(68, 175, 68); 
+   width: 120px;
+   height: 45px;
+   color: white;
+   font-size: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.business-section {
+    display: flex;
+    height: 30vh;
+    width: 215vh;
+    /* border: 1px solid; */
+    background-color: rgb(230, 226, 222);
+}
+
+.left-business-section {
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.left-business-text {
+    font-size: 30px;
+}
+.left-business-text > span {
+    color: rgb(68, 175, 68);
+}
+
+.left-business-content {
+    margin-top: 10px;
+    color: rgb(94, 90, 90);
+}
+
+.right-business-section {
+    margin-left: 200px;
+}
+
+.customer-section {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 45vh;
+    background-color: aliceblue;
+}
+
+.left-customer-section {
+    margin-top: 30px;
+}
+
+.right-customer-section {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 60%;
+}
+
+.customer-section-content {
+    color: rgb(105, 105, 105);
+    align-items: center;
+}
+
+.customer-section-text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(68, 175, 68);
+}
+
+.right-section-content {
+    margin-top: 20px;
+    color: rgb(105, 105, 105);
+}
+
+.logo-customer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1px;
+    margin-right: 0px;
+    margin-top: 30px; 
+}
+
+.anchor-customer-section {
+    color: rgb(68, 175, 68);
+    font-size: large;
+}
